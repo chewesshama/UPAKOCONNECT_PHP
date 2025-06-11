@@ -21,7 +21,7 @@ if (file_exists(__DIR__ . '/../.env')) {
 // Database configuration
 $host = $_ENV['DB_HOST'] ?? 'localhost';
 $dbname = $_ENV['DB_NAME'] ?? 'upakoconnect';
-$username = $_ENV['DB_USER'] ?? 'root';
+$username = $_ENV['DB_USER'] ?? 'upako';
 $password = $_ENV['DB_PASS'] ?? '';
 
 try {
